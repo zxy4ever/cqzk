@@ -3,8 +3,8 @@
 
 #define BUFSIZE 2048
 #define IPSTR "61.128.226.218"		// 服务器IP地址; Host: www.cqzk.com.cn
-#define PORT 80						// 可使用浏览器直接访问的网站均为80端口
-#define OUTFILE "研究生信息.txt"	// 查询的结果保存到输出的文件中
+#define PORT 80				// 可使用浏览器直接访问的网站均为80端口
+#define OUTFILE "研究生信息.txt"		// 查询的结果保存到输出的文件中
 
 #pragma  comment(lib,"ws2_32.lib")
 
