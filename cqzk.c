@@ -60,6 +60,7 @@ const char* grade(unsigned int gradeNum)
 {
 	switch (gradeNum)
 	{ //当考生级数参数空缺时默认为2018级
+		case 2013:	return "yjs2013_0204";
 	case 2014:		return "YJS2014_0217B";
 	case 2015:		return "YJS2015_Bir0212";
 	case 2016:		return "yjscj2016";
