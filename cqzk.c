@@ -65,7 +65,7 @@ const char* grade(unsigned int gradeNum)
 	case 2010:		return "";
 	case 2011:		return "";
 	case 2012:		return "yjs2012!";
-		case 2013:	return "yjs2013_0204";
+	case 2013:		return "yjs2013_0204";
 	case 2014:		return "YJS2014_0217B";
 	case 2015:		return "YJS2015_Bir0212";
 	case 2016:		return "yjscj2016";
