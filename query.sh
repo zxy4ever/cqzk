@@ -11,9 +11,20 @@ do
 	else
 		ksbh=${line}
 		echo "student ${xm} ${ksbh}"
-		./student ${xm} ${ksbh}
+		# ./student ${xm} ${ksbh} 2016
+		
+		if test ${xm}=${preXm} ; then
+			if test $error -eq 1 ' then
+				$error=./student ${xm} ${ksbh} 2016
+			fi
+		else
+			if test $error -eq 1 ; then
+				echo "无法找到${preXm}的信息！"
+			fi
+			$error=./student ${xm} ${ksbh} 2016
+		fi
+		${preXm}=$xm
 		echo "已处理完第$((($SUM + 1) / 2))条信息"
-		echo "-------------------------------------------------------------------------"
 	fi
 	SUM=$(( $SUM + 1))
 done
